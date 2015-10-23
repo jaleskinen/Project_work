@@ -1,0 +1,80 @@
+/*use element selector to change body elements styles*/
+body {
+    background-color: lightgray;
+} 
+
+/*use element selector to select all p elements for this style*/
+p{
+    color: blue; /*Text color*/
+    font-size: 32px;
+}
+
+/*use element selector to change h1 elements styles from default values*/
+h1{
+    color: black; /*Text color*/
+    font-size: 32px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+/*use class selector to define style for elements. Note: always start with a dot (.) !!*/
+.entry{
+    text-align: center;
+    color: black; /*border color*/
+    border: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: wheat;
+}
+
+.left{
+    width: 150px;
+    height: 30px;
+}
+
+.center{
+    width: 350px;
+    height: 30px;
+}
+
+/*use id selector to define style*/
+#menu{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    text-align: center;
+    border: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: wheat;
+}
+
+/*button1 style*/
+#button1 {
+    width: 40em;  height: 3em;
+    width: 90%;
+}
+
+/*button1 style*/
+#button2 {
+    width: 30em;  height: 3em;
+    width: 60%;
+}
+
+#button3 {
+    width: 20em;  height: 2em;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:30%;
+    color: blue; /*Text color*/
+    font-size: 18px;
+    text-align: left;
+}
