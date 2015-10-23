@@ -1,32 +1,72 @@
 /*use element selector to change body elements styles*/
 body {
-    background-color: lightgray;
+    background: repeating-linear-gradient(
+      90deg,
+      #53423d,
+      #222 10px,
+      #502115 10px,
+      #333 20px
+    );
 } 
 
 /*use element selector to select all p elements for this style*/
 p{
-    color: blue; /*Text color*/
+    color: white; /*Text color*/
     font-size: 32px;
+}
+
+a{
+    color: crimson; /*Text color*/
 }
 
 /*use element selector to change h1 elements styles from default values*/
 h1{
-    color: black; /*Text color*/
-    font-size: 32px;
+    color: white; /*Text color*/
+    font-size: 42px;
 }
 
 h2{
-    font-size: 32px;
+    font-size: 32px; 
+    background: repeating-linear-gradient(
+      90deg,
+      #4c4c5f,
+      #222 2px,
+      #38302f 10px,
+      #333 20px
+    );
 }
 
 /*use class selector to define style for elements. Note: always start with a dot (.) !!*/
 .entry{
     text-align: center;
-    color: black; /*border color*/
+    color: white; /*border color*/
     border: 4px;
     border-style: solid;
     border-radius: 8px;
-    background-color: wheat;
+    background: repeating-linear-gradient(
+      90deg,
+      #4c4c5f,
+      #222 2px,
+      #38302f 10px,
+      #333 20px
+    );
+}
+
+.subentry{
+    text-align: center;
+    color: white; /*border color*/
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    background: repeating-linear-gradient(
+      90deg,
+      #4c4c5f,
+      #222 2px,
+      #38302f 10px,
+      #333 20px
+    );
 }
 
 .left{
@@ -41,13 +81,10 @@ h2{
 
 /*use id selector to define style*/
 #menu{
-    margin-top: 20px;
-    margin-bottom: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
-    border: 4px;
-    border-style: solid;
-    border-radius: 8px;
-    background-color: wheat;
+    color:crimson;
 }
 
 /*button1 style*/
