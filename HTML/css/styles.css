@@ -23,6 +23,8 @@ a{
 h1{
     color: white; /*Text color*/
     font-size: 42px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 h2{
@@ -40,6 +42,8 @@ h2{
 .entry{
     text-align: center;
     color: white; /*border color*/
+    margin-top: 1%;
+    margin-bottom: 1%;
     border: 4px;
     border-style: solid;
     border-radius: 8px;
@@ -72,6 +76,7 @@ h2{
 .left{
     width: 150px;
     height: 30px;
+    margin-left: 2%;
 }
 
 .center{
@@ -81,31 +86,12 @@ h2{
 
 /*use id selector to define style*/
 #menu{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     text-align: center;
     color:crimson;
 }
 
-/*button1 style*/
-#button1 {
-    width: 40em;  height: 3em;
-    width: 90%;
-}
-
-/*button1 style*/
-#button2 {
-    width: 30em;  height: 3em;
-    width: 60%;
-}
-
-#button3 {
-    width: 20em;  height: 2em;
-    width: 20%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
 
 #footer {
     position:absolute;
