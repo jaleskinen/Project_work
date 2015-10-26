@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fi"> 
+    <head>
+        <meta charset="utf-8">
+        <title>Pehtoori</title>
+        <link href="../css/styles.css" type="text/css" rel="stylesheet"> 
+    </head>
+    
+    <body>
+        <br/>
+        <div class="entry">
+            <h1><u><a href="../index.html">Pehtoori</a></u></h1>
+        </div>
+        <br/>
+        
+        <div class="subentry">
+            <h2 id="menu"><u>Hevosten Liikuntakalenteri</u></h2>
+        </div>
+        <br/>
+        
+        <!-- Notes, functionality to be added, bugs, optimisation ideas, etc.:
+            - Tunnit missä menevät esille tähän vai tallin viikkokalenteriin?
+            - Tuntijako nimikkeet valittavissa, admin. (Ratsu/Ravuri eri nimikkeet)
+            - Tuntijako nimikkeiden määrä valittaviin? Admin.
+            - Graafinen esitys tarpeen?
+            - Yhteinen liikuntakalenteri jossa kaikki hevoset? (Tallin viikkokalenteriin?)
+            - Esitettävän ajan tarkkuus (15min, 30min vai tunti). Admin voi valita?  
+            - Viikkonumero, oletuksena nykyinen viikko (javascript?).
+            - Aikaväli, kalenterivalikko?
+            - 
+        -->
+        
+        <div class="subentry">
+            
+            <br/>
+            <form action="horsecalendar_v2.html">
+                <input class="left" type="submit" value="Päivä">
+                <input type="text" placeholder="Viikonpäivä"/>
+            </form>
+            <br/>
+                
+         <div style="text-align:left">
+            <form action="horsecalendar_v2.html"> <!-- to be changed to right address-->
+                    <input class="left" type="submit" value="Hevonen/Aika ">
+                    <input class="left" type="submit" value="Estetunnit">
+                    <input class="left" type="submit" value="Koulutunnit">
+                    <input class="left" type="submit" value="Puomitunnit">
+                    <input class="left" type="submit" value="Maastotunnit">
+                </form>
+                <br/>
+            
+                <form action="horsecalendar_v2.html">
+                    <input class="left" type="submit" value="Heppa 1">
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                </form>
+                <br/>
+
+                <form action="horsecalendar_v2.html">
+                    <input class="left" type="submit" value="Heppa 2">
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                </form>
+                <br/>
+
+                <form action="horsecalendar_v2.html">
+                    <input class="left" type="submit" value="Heppa 3">
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                    <input type="text" placeholder="Tuntia"/>
+                </form>
+                <br/>
+            </div>
+        </div>
+        
+        <script src="../controllers/scripts.js"></script>    
+        
+    </body>     
+</html>
