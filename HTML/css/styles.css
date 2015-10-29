@@ -46,6 +46,10 @@ h2{
     );
 }
 
+form{
+    color: black; /*Text color*/
+}
+
 /*use class selector to define style for elements. Note: always start with a dot (.) !!*/
 .entry{
     text-align: center;
@@ -64,7 +68,7 @@ h2{
     );
 }
 
-.subentry{
+.omaentry{
     text-align: center;
     color: white; /*border color*/
     margin-left: 10%;
