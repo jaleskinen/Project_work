@@ -1,0 +1,22 @@
+{
+  "name": "pehtoori",
+  "version": "1.0.0",
+  "description": "Pehtoori Tallipäiväkirja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaleskinen/Project_work.git"
+  },
+  "author": "Jarmo Leskinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaleskinen/Project_work/issues"
+  },
+  "homepage": "https://github.com/jaleskinen/Project_work#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
